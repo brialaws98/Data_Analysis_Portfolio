@@ -25,3 +25,9 @@
       * ***Chief Technology Architect***
       * ***Senior Principal***
       * ***Data Scientist***
+
+## Modeling data  to create valuable insights
+#### Diving into the data
+#### Requirements gathering
+#### Data sets - Quick Explanations
+
