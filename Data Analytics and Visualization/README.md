@@ -53,9 +53,9 @@
       * Removing columns that are not relevant to this task
            * *Think about how each column might be relevant to the business question you're investigating. If you can't think of why a column may be useful, it may not be worth including it*
 #### Data Modelling
-***1. Create a final dataset by merging your three tables together***
+1. ***Create a final dataset by merging your three tables together***
    * Use the Reaction table as your base table, then first join the relevant columns from your Content data set, and then the Reaction Types data set
-***2. Figure out the Top 5 performing categories***
+2. ***Figure out the Top 5 performing categories***
    * Add up the total scores for each category
 ***Tools used for this section***
 * BiqQuery for SQL
