@@ -26,11 +26,11 @@
       * ***Senior Principal***
       * ***Data Scientist***
 
-## Modeling data  to create valuable insights
+## Modeling data to create valuable insights
 #### Diving into the data
 * Here is what the client has sent:
      * ***7 data sets*** - each data set contains different columns and values
-     * ***A data model*** - this shows the relationships between all of the data sets, as well as any links that you can use to merge tables
+     * ***A data model*** - This shows the relationships between all of the data sets, as well as any links that you can use to merge tables
 #### Requirements gathering
 * You won't need all 7 datasets to find what you are looking for
 * What is the first step?
@@ -41,5 +41,10 @@
           * Content
           * Reaction Type
 #### Data sets - Quick Explanations
-* 
-
+* The brief states that the client wanted to see "An **analysis** of their **content categories** showing the **top 5** categories with the largest popularity"
+* As explained in the data model, popularity is qualified by the "Scors" given to each reaction type
+* We therefore need data showing the content ID, category, content type, reaction type, and reaction score
+* To figure out the popularity, we'll have to add up which content categories have the largest score
+#### Data Cleaning
+1. Download the csv files
+2. Clean the data by:
