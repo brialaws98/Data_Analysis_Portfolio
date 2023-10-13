@@ -13,3 +13,21 @@ FROM `portfolio-project-397513.Accenture_DA_project.Reactions` R
 JOIN `portfolio-project-397513.Accenture_DA_project.Content_2` C
 ON
   R.Content_ID = C.Countent_ID
+
+## Joint the new table (Reactions and Content) to the Reaction Type table
+
+SELECT
+  RT.Score,
+  RC.User,
+  RC.Content_ID,
+  RC.Content_Type,
+  RC.URL,
+  RC.Reaction_Type,
+  RT.Sentiment,
+  RC.Category,
+  RC.Datetime
+
+FROM `portfolio-project-397513.Accenture_DA_project.RC` RC
+JOIN `portfolio-project-397513.Accenture_DA_project.ReactionTypes` RT
+ON
+  RC.Reaction_Type = RT.Reaction_Type
