@@ -1,1 +1,15 @@
+## Join the Reactions table to the Content table
 
+SELECT
+  R.User,
+  R.Content_ID,
+  C.Content_Type,
+  C.URL,
+  R.Reaction_Type,
+  C.Category,
+  R.Datetime
+
+FROM `portfolio-project-397513.Accenture_DA_project.Reactions` R
+JOIN `portfolio-project-397513.Accenture_DA_project.Content_2` C
+ON
+  R.Content_ID = C.Countent_ID
