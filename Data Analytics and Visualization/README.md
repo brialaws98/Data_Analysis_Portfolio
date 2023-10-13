@@ -28,6 +28,18 @@
 
 ## Modeling data  to create valuable insights
 #### Diving into the data
+* Here is what the client has sent:
+     * ***7 data sets*** - each data set contains different columns and values
+     * ***A data model*** - this shows the relationships between all of the data sets, as well as any links that you can use to merge tables
 #### Requirements gathering
+* You won't need all 7 datasets to find what you are looking for
+* What is the first step?
+     * Use the ***data model*** to identify which datasets will be required to answer your business questions
+          * Figure out which the ***top 5 categories*** with the largest popularity
+     * Three data sets you will need to complete your analysis:
+          * Reaction
+          * Content
+          * Reaction Type
 #### Data sets - Quick Explanations
+* 
 
