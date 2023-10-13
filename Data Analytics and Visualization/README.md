@@ -46,5 +46,9 @@
 * We therefore need data showing the content ID, category, content type, reaction type, and reaction score
 * To figure out the popularity, we'll have to add up which content categories have the largest score
 #### Data Cleaning
-1. Download the csv files
+1. Download the CSV files
 2. Clean the data by:
+      * Removing rows that have values which are missing
+      * Changing the data type of some values within a column
+      * Removing columns that are not relevant to this task
+           * *Think about how each column might be relevant to the business question you're investigating. If you can't think of why a column may be useful, it may not be worth including it*
