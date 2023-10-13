@@ -59,3 +59,8 @@
    * Add up the total scores for each category
 ***Tools used for this section***
 * BiqQuery for SQL
+
+## Bringing your data to life and uncovering insights for the business
+#### Build your presentation Structure
+#### Quick explanation
+#### Create your charts
