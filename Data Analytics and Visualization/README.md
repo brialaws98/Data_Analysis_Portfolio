@@ -48,7 +48,7 @@
 #### Data Cleaning
 1. Download the CSV files
 2. Clean the data by:
-      * Removing rows that have values which are missing
+      * Removing rows that have values that are missing
       * Changing the data type of some values within a column
       * Removing columns that are not relevant to this task
            * *Think about how each column might be relevant to the business question you're investigating. If you can't think of why a column may be useful, it may not be worth including it*
