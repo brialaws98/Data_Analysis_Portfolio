@@ -1,0 +1,19 @@
+## Which categgories are mentioned with a positive sentiment and is most loved
+
+SELECT
+  DISTINCT 
+    Category,
+    Content_Type,
+    Sentiment,
+    Score,Reaction_Type,
+    Datetime
+
+
+FROM `portfolio-project-397513.Accenture_DA_project.CompleteReactionData`
+
+WHERE
+  Sentiment = "positive" AND
+  Reaction_Type = "love"
+
+ORDER BY
+  Datetime DESC
