@@ -11,3 +11,5 @@
 ## Cleaning the Dataset
 * Checked for Data Validation and Date Repeating itself
 * The dataset is cleaned
+
+## Creating Pivot Tables
