@@ -2,9 +2,13 @@
 
 SELECT
   Race,
-  Age,
+      -- Will group Ages by age group
+  CASE 
+        WHEN age BETWEEN 20 AND 29 THEN '20s'
+        WHEN age BETWEEN 30 AND 39 THEN '30s'
+        WHEN age BETWEEN 40 AND 49 THEN '40s'
+    END AS age_group,
   Gender,
-  Job_Title,
   Salary
 
 FROM `portfolio-project-397513.salary_by_job_title.Salary`
@@ -23,6 +27,12 @@ WHERE
       'Recruiter',
       'Web Developer'
   )
+
+  GROUP BY 
+    Race,
+    age_group,
+    Gender,
+    Salary
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
