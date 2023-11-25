@@ -1,7 +1,7 @@
 ## How does Race, Age, and Gender affect Job Title Salary? ##
 
 SELECT
-  Race,
+  Country,
       -- Will group Ages by age group
   CASE 
         WHEN age BETWEEN 20 AND 29 THEN '20s'
@@ -29,7 +29,7 @@ WHERE
   )
 
   GROUP BY 
-    Race,
+    Country,
     age_group,
     Gender,
     Salary
