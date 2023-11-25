@@ -60,13 +60,13 @@ WHERE
       'Data Engineer',
       'Financial Analyst',
       'Front end Developer',
-      'Mrketing Analyst',
+      'Marketing Analyst',
       'Operations Analyst',
       'Project Manager',
       'Recruiter',
       'Web Developer'
   )
-    ANd Salary >= 35000
+    AND Salary >= 25000
 
   ORDER BY 
     Years_of_Experience,
