@@ -9,3 +9,5 @@
 * ***Senior:*** It shows that this employee has a senior position(*will show Binary* numbers 1 (is a Senior) or 0 (is not a senior)
 
 ## Cleaning the Dataset
+* Checked for Data Validation and Date Repeating itself
+* The dataset is cleaned
