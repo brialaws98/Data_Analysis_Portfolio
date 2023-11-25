@@ -12,3 +12,5 @@
 * How does *Years of Experience* affect their *Salary* in each *Job Title*?
 * Does *Gender* affect *Salary*?
 * Which *Job Title* pays the most?
+* WHich *Gender* is involved more in ***Data Analysis***?
+* Which *Gender is involved more in ***Frontend Developer*** and ***Web Developer***?
