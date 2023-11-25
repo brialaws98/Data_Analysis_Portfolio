@@ -1,0 +1,110 @@
+## How does Race, Age, and Gender affect Job Title Salary? ##
+
+SELECT
+  Race,
+  Age,
+  Gender,
+  Job_Title,
+  Salary
+
+FROM `portfolio-project-397513.salary_by_job_title.Salary`
+
+WHERE 
+  Job_Title IN (
+      'Customer Service Rep',
+      'Customer Support Specialist',
+      'Data Analyst',
+      'Data Engineer',
+      'Financial Analyst',
+      'Front end Developer',
+      'Mrketing Analyst',
+      'Operations Analyst',
+      'Project Manager',
+      'Recruiter',
+      'Web Developer'
+  )
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+## How does Years of Experience affect Salary in each Job Title? ##
+
+SELECT 
+  Years_of_Experience,
+  Job_Title, 
+  Salary
+
+FROM `portfolio-project-397513.salary_by_job_title.Salary`
+
+WHERE 
+  Job_Title IN (
+      'Customer Service Rep',
+      'Customer Support Specialist',
+      'Data Analyst',
+      'Data Engineer',
+      'Financial Analyst',
+      'Front end Developer',
+      'Mrketing Analyst',
+      'Operations Analyst',
+      'Project Manager',
+      'Recruiter',
+      'Web Developer'
+  )
+    ANd Salary >= 35000
+
+  ORDER BY 
+    Years_of_Experience,
+    Salary
+    ASC
+---------------------------------------------------------
+---------------------------------------------------------
+## Does Gender affect Salary?
+
+SELECT 
+  Gender,
+  Salary
+
+FROM `portfolio-project-397513.salary_by_job_title.Salary`
+
+WHERE 
+  Job_Title IN (
+      'Customer Service Rep',
+      'Customer Support Specialist',
+      'Data Analyst',
+      'Data Engineer',
+      'Financial Analyst',
+      'Front end Developer',
+      'Mrketing Analyst',
+      'Operations Analyst',
+      'Project Manager',
+      'Recruiter',
+      'Web Developer'
+  )
+
+-------------------------------------------
+-------------------------------------------
+## Which Gender is involved more in Data Analysis?
+
+SELECT 
+  Gender,
+  Job_Title
+
+FROM `portfolio-project-397513.salary_by_job_title.Salary`
+
+WHERE 
+  Job_Title = 'Data Analyst'
+  
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+## Which Gender is involved more in Frontend Delevoper and Web Developer
+SELECT 
+  Gender,
+  Job_Title
+
+FROM `portfolio-project-397513.salary_by_job_title.Salary`
+
+WHERE 
+  Job_Title IN (
+          'Front end Developer',
+          'Web Developer'
+  )
