@@ -9,7 +9,13 @@ SELECT
         WHEN age BETWEEN 40 AND 49 THEN '40s'
     END AS age_group,
   Gender,
-  Salary
+  CASE
+    WHEN Salary between 25000 AND 50000 THEN '25K - 50K'
+    WHEN Salary between 50000 AND 100000 THEN '50K - 100K'  
+    WHEN Salary between 100000 AND 150000 THEN '100K - 150K'
+    WHEN Salary between 150000 AND 200000 THEN '150K - 200K'
+    WHEN Salary between 200000 AND 250000 THEN '200K - 250K'      
+  END AS income_range
 
 FROM `portfolio-project-397513.salary_by_job_title.Salary`
 
