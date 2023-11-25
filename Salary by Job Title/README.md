@@ -6,3 +6,9 @@
 * Intended for analyzing job market trends and comparing compensations
 * Cleaned and preprocessed for ease of analysis
 * Available under an open license for research and data analysis
+  
+## Ask
+* How does *Race*, *Age*, and *Gender* affect their *salary*?
+* How does *Years of Experience* affect their *Salary* in each *Job Title*?
+* Does *Gender* affect *Salary*?
+* Which *Job Title* pays the most?
