@@ -25,6 +25,7 @@
        * Average speed of answer
        * Agent's performance quadrants -> average handle time (talk duration vs calls answered
    * ***Learn how to use PowerBI in order to perform task on for course***
+* Uploaded data sheet to [Microsoft Excel](https://onedrive.live.com/edit?id=6579398A5A15C3BB!47423&resid=6579398A5A15C3BB!47423&ithint=file%2cxlsx&ct=1724951549677&wdOrigin=OFFICECOM-WEB.START.UPLOAD&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=635c50fc-e08f-4048-b0c6-9309abf54353&wdo=2&cid=6579398a5a15c3bb)
    
    ## Here are some additional resources:
 * ***Podcasts***
