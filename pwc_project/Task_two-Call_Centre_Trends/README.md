@@ -24,6 +24,7 @@
        * Calls by time
        * Average speed of answer
        * Agent's performance quadrants -> average handle time (talk duration vs calls answered
+   * ***Learn how to use PowerBI in order to perform task on for course***
    
    ## Here are some additional resources:
 * ***Podcasts***
