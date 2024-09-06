@@ -6,6 +6,17 @@
    * Dashboard to be used as basis for discussion with management
 
 ## What KPIs do I want to include?
+* Overall customer satisfaction
+    * This can be a line diagram that will show the increase/decrease of customer satisfaction overtime
+* Overall calls answered/abandoned
+   * This can be presented as a bar or line diagram which compares the two
+* Average *speed of answer*
+    * Bar chart
+* Agent performance (compare to *answer in minutes*)
+    * Bar chart
+* Resoved answers and minutes
+* Average *satisfaction rate*
+   * Bar chart
 
 ## What does the KPIs tell me?
 
