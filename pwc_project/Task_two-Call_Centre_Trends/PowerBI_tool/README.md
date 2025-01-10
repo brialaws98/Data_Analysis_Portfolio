@@ -12,7 +12,7 @@
 
 #### What KPIs do I want to include?
 * Overall customer satisfaction
-    * This can be a line diagram that will show the increase/decrease of customer satisfaction overtime
+    * This is represented as a ***pie chart***
 * Overall calls answered/abandoned
    * This can be presented as a bar or line diagram which compares the two
 * Average *speed of answer*
