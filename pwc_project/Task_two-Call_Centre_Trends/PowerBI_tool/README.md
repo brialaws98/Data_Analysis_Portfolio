@@ -13,15 +13,10 @@
 #### What KPIs do I want to include?
 * Overall customer satisfaction
     * This is represented as a ***pie chart***
-* Overall calls answered/abandoned
-   * This can be presented as a bar or line diagram which compares the two
-* Average *speed of answer*
-    * Bar chart
-* Agent performance (compare to *answer in minutes*)
-    * Bar chart
-* Resoved answers and minutes
-* Average *satisfaction rate*
-   * Bar chart
+* Satisfaction rate by topic
+   * This is represented with a ***Donut chart***
+   * Topics listed are color coded
+   * Satisfaction rate is counted as a percentage
 
 #### What does the KPIs tell me?
 
